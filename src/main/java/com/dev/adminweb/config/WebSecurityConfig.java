@@ -35,8 +35,14 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return config.getAuthenticationManager();
     }
 
-    //  update authentication mechanism by using jwt authentication filter
 
-//     do something else
+    private void logout(boolean isLogin) {
+        if (isLogin)
+            System.out.println("You will be logged out");
+    }
+
+    // checking user autharization
+    //  update authentication mechanism by using jwt authentication filter
+    //     do something else
 
 }
