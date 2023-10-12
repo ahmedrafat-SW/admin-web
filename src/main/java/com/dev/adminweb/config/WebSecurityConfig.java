@@ -40,4 +40,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         if (isLogin)
             System.out.println("You will be logged out");
     }
+
+    // checking user autharization
 }
