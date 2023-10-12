@@ -42,4 +42,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     // checking user autharization
+    //  update authentication mechanism by using jwt authentication filter
+    //     do something else
+
 }
